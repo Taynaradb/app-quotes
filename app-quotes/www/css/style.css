@@ -1,0 +1,35 @@
+
+body {
+    height:100vh;
+}
+
+.container-fluid{
+    background-color: #506EE8;
+}
+
+.btn{
+    border:1px solid #699BF7!important;
+    padding: 0 10px!important;
+    font-size:12px;
+}
+
+.btn:hover, .btn:focus{
+    border:1px solid #699BF7!important;
+    background-color: #699BF7!important;
+    color: #fff!important;
+}
+
+.card .card-body:first-child{
+    background-image: url(../img/quotes.png) no-repeat;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.blockquote p{
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.blockquote{
+    height: 144px;
+}
