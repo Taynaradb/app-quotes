@@ -33,3 +33,6 @@ body {
 .blockquote{
     height: 144px;
 }
+p#quote {
+    height: 100px;
+}

@@ -18,16 +18,10 @@ let quotes = [
     }
 ];
 
-//console.log(quotes[0].name);
-//console.log(quotes[0].quote);
+let display = quotes[Math.floor(Math.random() * quotes.length)];
 
-//quote.innerHTML = quotes[1].quote;
-
-const n = quotes.length;
-
-for (let i = 0; i <= n; i++) { 
-  quoteof.innerHTML = quotes[i].quote;
-  author.innerHTML = quotes[i].name;
-}
+quoteof.innerHTML = display.quote;
+author.innerHTML = display.name;
 
 });
+
